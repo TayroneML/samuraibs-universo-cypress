@@ -99,7 +99,7 @@ describe('cadastro', () => {
         })
     })
 
-    context.only('quando não for preenchido nenhum dos campos', () => {
+    context('quando não for preenchido nenhum dos campos', () => {
         const alertMessages = [
             'Nome é obrigatório',
             'E-mail é obrigatório',
